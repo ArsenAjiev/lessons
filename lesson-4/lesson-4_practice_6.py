@@ -7,6 +7,9 @@ start_number = int(input())
 print("Enter end number: ")
 end_number = int(input())
 
+
+
+
 #  Generate element from start_number to end_number (including)
 my_count = 0
 for element in range(start_number, end_number + 1):
@@ -25,7 +28,3 @@ for element in range(start_number, end_number + 1):
 
 print("Total count of prime numbers")
 print(my_count)
-
-
-
-
