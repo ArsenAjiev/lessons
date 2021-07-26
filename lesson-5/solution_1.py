@@ -18,7 +18,7 @@ def three_args(var1 = None, var2 = None, var3 = None):
 three_args(var1 = 2, var3 = 10)
 
 
-""" Нашел в интернете, но не понял функцию local().item() и * как отдельный аргумент!
+""" Нашел в интернете, но не понял функцию local().item() и (*) как отдельный аргумент!
 
 def three_args(*, var1, var2=None, var3=None):
     arguments = ', '.join([f'{arg[0]} = {str(arg[1])}' for arg in locals().items() if arg[1] is not None])
