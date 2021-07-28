@@ -15,7 +15,7 @@ def three_args(var1 = None, var2 = None, var3 = None):
         print(f'var1 = {var1}, var2 = {var2}, var3 = {var3}')
 
 
-three_args(var1 = 2, var3 = 10)
+three_args(var1 = 12, var3 = 110)
 
 
 """ Нашел в интернете, но не понял функцию local().item() и (*) как отдельный аргумент!
@@ -31,6 +31,13 @@ three_args(var1='Python', var2=3, var3=9)
 
 """
 
+# правильный ответ
+
+def three_args(*args, **kwargs):
+    for key, value in kwargs.items():
+        if value is not None:
+            print(f"{key} = {value}")
 
 
+three_args(var1=2, var3=10)
 
