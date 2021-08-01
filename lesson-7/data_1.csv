@@ -1,0 +1,9 @@
+Покупатель;Товар;Количество;Стоимость
+Client_1;Book;18;90
+Client_1;CD;12;120
+Client_2;DVD;15;225
+Client_2;MP3;22;176
+Client_3;Book;23;115
+Client_3;CD;19;190
+Client_4;DVD;14;210
+Client_4;MP3;16;128
