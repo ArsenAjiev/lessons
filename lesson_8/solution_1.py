@@ -20,9 +20,15 @@ def cout_of_days():
 
 
 def main():
-    count_of_rm = cout_of_days()
-    print(count_of_rm)
+    count_of_km_days = cout_of_days()
+    print(count_of_km_days)
 
 
 if __name__ == "__main__":
     main()
+
+""" 
+Пример выполнения кода:
+Сколько км нужно пробежать: 10
+Сколько пробежал за первый день: 2
+Спортсмен пробежит 10 км за 17 дней """
