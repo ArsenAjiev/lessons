@@ -12,6 +12,9 @@ def country(spis):
     for key, value in spis.items():
         if choise_city in value:
            print(f" город - {choise_city}, страна -  {key} ")
+        else:
+            print("dfffff")
+            break
 
 
 
