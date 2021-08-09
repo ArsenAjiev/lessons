@@ -3,3 +3,6 @@ text_1.txt
 text_3.txt
 lesson-7/__pycache__/
 
+library/__pycache__/
+
+__pycache__/

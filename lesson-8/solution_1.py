@@ -13,8 +13,10 @@ def cout_of_days():
     x = int(input("Сколько км нужно пробежать: "))
     y = int(input("Сколько пробежал за первый день: "))
     day_count = 0
-    while y <= x:
-        y = y + y * 0.1
+    curr_dist = 0
+    while curr_dist <= x:
+        curr_dist = curr_dist + y
+        y *= 1.1
         day_count += 1
     return f"Спортсмен пробежит {x} км за {day_count} дней"
 
